@@ -1,0 +1,1 @@
+export {default as galaxyImage} from './galaxyImage.jpeg';

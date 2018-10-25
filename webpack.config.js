@@ -41,10 +41,15 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader'
-                ],
+                test: /\.(png|svg|jpg|gif|jpeg)$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[path][name].[ext]',
+                }
+            },
+            {
+                test: /\.scss$/,
+                use: ["style-loader", "css-loader", "sass-loader"]
             }, 
             {
                 test: /\.tsx?$/,
