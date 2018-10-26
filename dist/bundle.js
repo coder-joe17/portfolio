@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "6f522783c02c8b3cb3e7";
+/******/ 	var hotCurrentHash = "9d7b80295f345c5293d1";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -802,6 +802,17 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"Images/galaxyImage.jpeg\";\n\n//# sourceURL=webpack:///./Images/galaxyImage.jpeg?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Containers/AboutContainer/About.scss":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/Containers/AboutContainer/About.scss ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".aboutContainer {\\n  color: white; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Containers/AboutContainer/About.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -1619,6 +1630,41 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 
 /***/ }),
 
+/***/ "./src/Containers/AboutContainer/About.scss":
+/*!**************************************************!*\
+  !*** ./src/Containers/AboutContainer/About.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/sass-loader/lib/loader.js!./About.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Containers/AboutContainer/About.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(true) {\n\tmodule.hot.accept(/*! !../../../node_modules/css-loader!../../../node_modules/sass-loader/lib/loader.js!./About.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Containers/AboutContainer/About.scss\", function() {\n\t\tvar newContent = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/sass-loader/lib/loader.js!./About.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Containers/AboutContainer/About.scss\");\n\n\t\tif(typeof newContent === 'string') newContent = [[module.i, newContent, '']];\n\n\t\tvar locals = (function(a, b) {\n\t\t\tvar key, idx = 0;\n\n\t\t\tfor(key in a) {\n\t\t\t\tif(!b || a[key] !== b[key]) return false;\n\t\t\t\tidx++;\n\t\t\t}\n\n\t\t\tfor(key in b) idx--;\n\n\t\t\treturn idx === 0;\n\t\t}(content.locals, newContent.locals));\n\n\t\tif(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');\n\n\t\tupdate(newContent);\n\t});\n\n\tmodule.hot.dispose(function() { update(); });\n}\n\n//# sourceURL=webpack:///./src/Containers/AboutContainer/About.scss?");
+
+/***/ }),
+
+/***/ "./src/Containers/AboutContainer/About.tsx":
+/*!*************************************************!*\
+  !*** ./src/Containers/AboutContainer/About.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(module) {\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_hot_loader_1 = __webpack_require__(/*! react-hot-loader */ \"./node_modules/react-hot-loader/index.js\");\r\n__webpack_require__(/*! ./About.scss */ \"./src/Containers/AboutContainer/About.scss\");\r\nvar About = /** @class */ (function (_super) {\r\n    __extends(About, _super);\r\n    function About() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    About.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: 'aboutContainer' }, \"Hello From About!\"));\r\n    };\r\n    return About;\r\n}(React.Component));\r\nexports.default = react_hot_loader_1.hot(module)(About);\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ \"./node_modules/webpack/buildin/module.js\")(module)))\n\n//# sourceURL=webpack:///./src/Containers/AboutContainer/About.tsx?");
+
+/***/ }),
+
+/***/ "./src/Containers/HomeContainer/Home.tsx":
+/*!***********************************************!*\
+  !*** ./src/Containers/HomeContainer/Home.tsx ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(module) {\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_hot_loader_1 = __webpack_require__(/*! react-hot-loader */ \"./node_modules/react-hot-loader/index.js\");\r\nvar Home = /** @class */ (function (_super) {\r\n    __extends(Home, _super);\r\n    function Home() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    Home.prototype.render = function () {\r\n        return React.createElement(\"h1\", null, \"Hello World From Home!\");\r\n    };\r\n    return Home;\r\n}(React.Component));\r\nexports.default = react_hot_loader_1.hot(module)(Home);\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ \"./node_modules/webpack/buildin/module.js\")(module)))\n\n//# sourceURL=webpack:///./src/Containers/HomeContainer/Home.tsx?");
+
+/***/ }),
+
 /***/ "./src/containers/AppContainer/App.scss":
 /*!**********************************************!*\
   !*** ./src/containers/AppContainer/App.scss ***!
@@ -1638,7 +1684,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(module) {\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_hot_loader_1 = __webpack_require__(/*! react-hot-loader */ \"./node_modules/react-hot-loader/index.js\");\r\n__webpack_require__(/*! ./App.scss */ \"./src/containers/AppContainer/App.scss\");\r\nvar router_1 = __webpack_require__(/*! ../../utils/Router/router */ \"./src/utils/Router/router.tsx\");\r\n// 'HelloProps' describes the shape of props.\r\n// State is never set so we use the '{}' type.\r\nvar App = /** @class */ (function (_super) {\r\n    __extends(App, _super);\r\n    function App() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    App.prototype.render = function () {\r\n        return (React.createElement(\"main\", { className: 'appContainer' },\r\n            React.createElement(router_1.default, null)));\r\n    };\r\n    return App;\r\n}(React.Component));\r\nexports.default = react_hot_loader_1.hot(module)(App);\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ \"./node_modules/webpack/buildin/module.js\")(module)))\n\n//# sourceURL=webpack:///./src/containers/AppContainer/App.tsx?");
+eval("/* WEBPACK VAR INJECTION */(function(module) {\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_hot_loader_1 = __webpack_require__(/*! react-hot-loader */ \"./node_modules/react-hot-loader/index.js\");\r\nvar router_1 = __webpack_require__(/*! ../../utils/Router/router */ \"./src/utils/Router/router.tsx\");\r\n__webpack_require__(/*! ./App.scss */ \"./src/containers/AppContainer/App.scss\");\r\n// 'HelloProps' describes the shape of props.\r\n// State is never set so we use the '{}' type.\r\nvar App = /** @class */ (function (_super) {\r\n    __extends(App, _super);\r\n    function App() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    App.prototype.render = function () {\r\n        return (React.createElement(\"main\", { className: 'appContainer' },\r\n            React.createElement(router_1.default, null)));\r\n    };\r\n    return App;\r\n}(React.Component));\r\nexports.default = react_hot_loader_1.hot(module)(App);\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ \"./node_modules/webpack/buildin/module.js\")(module)))\n\n//# sourceURL=webpack:///./src/containers/AppContainer/App.tsx?");
 
 /***/ }),
 
@@ -1661,7 +1707,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!../nod
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\r\n__webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\r\nvar App_1 = __webpack_require__(/*! ./containers/AppContainer/App */ \"./src/containers/AppContainer/App.tsx\");\r\nReactDOM.render(React.createElement(App_1.default, null), document.getElementById(\"root\"));\r\n\n\n//# sourceURL=webpack:///./src/index.tsx?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\r\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\r\n__webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\r\nvar App_1 = __webpack_require__(/*! ./containers/AppContainer/App */ \"./src/containers/AppContainer/App.tsx\");\r\nReactDOM.render(React.createElement(react_router_dom_1.BrowserRouter, null,\r\n    React.createElement(App_1.default, null)), document.getElementById(\"root\"));\r\n\n\n//# sourceURL=webpack:///./src/index.tsx?");
 
 /***/ }),
 
@@ -1673,7 +1719,7 @@ eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nva
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\r\nvar Index = function () { return React.createElement(\"h2\", null, \"Home\"); };\r\nvar AppRouter = function () { return (React.createElement(react_router_dom_1.BrowserRouter, null,\r\n    React.createElement(\"div\", null,\r\n        React.createElement(\"nav\", null,\r\n            React.createElement(\"ul\", null,\r\n                React.createElement(\"li\", null,\r\n                    React.createElement(react_router_dom_1.Link, { to: \"/\" }, \"Home\")))),\r\n        React.createElement(react_router_dom_1.Route, { path: \"/\", exact: true, component: Index })))); };\r\nexports.default = AppRouter;\r\n\n\n//# sourceURL=webpack:///./src/utils/Router/router.tsx?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\r\nvar Home_1 = __webpack_require__(/*! ../../Containers/HomeContainer/Home */ \"./src/Containers/HomeContainer/Home.tsx\");\r\nvar About_1 = __webpack_require__(/*! ../../Containers/AboutContainer/About */ \"./src/Containers/AboutContainer/About.tsx\");\r\nvar AppRouter = function () { return (React.createElement(\"div\", { className: 'routerContainer' },\r\n    React.createElement(\"nav\", null,\r\n        React.createElement(\"ul\", null,\r\n            React.createElement(\"li\", null,\r\n                React.createElement(react_router_dom_1.Link, { to: \"/\" }, \"Home\")),\r\n            React.createElement(\"li\", null,\r\n                React.createElement(react_router_dom_1.Link, { to: \"/about\" }, \"About\")))),\r\n    React.createElement(react_router_dom_1.Switch, null,\r\n        React.createElement(react_router_dom_1.Route, { exact: true, path: \"/\", component: Home_1.default }),\r\n        React.createElement(react_router_dom_1.Route, { path: \"/about\", component: About_1.default })))); };\r\nexports.default = AppRouter;\r\n\n\n//# sourceURL=webpack:///./src/utils/Router/router.tsx?");
 
 /***/ })
 
