@@ -1,0 +1,33 @@
+@import '../../stylesheets/partials/color';
+@import '../../stylesheets/partials/sizes';
+@import '../../stylesheets/partials/dimensions';
+
+.navigationContainer {
+    background: $nav-background;
+    height: $nav-height;
+}
+
+.navigationContainer nav {
+    height: 100%;
+}
+.navigationContainer ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationContainer li {
+    list-style: none;
+    padding: 0 10px;
+    font-size: $nav-font-size;
+}
+
+.navigationContainer a {
+    color: $base-color;
+    text-decoration: none;
+}
+
+

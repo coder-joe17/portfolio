@@ -3,25 +3,36 @@ import * as React from "react"
 import {Route, Link, Switch } from "react-router-dom"
 import Home from '../../Containers/HomeContainer/Home'
 import About from '../../Containers/AboutContainer/About'
+import './router.scss'
 
 
 const AppRouter = () => (
 
-        <div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                </ul>
-            </nav>
+        <div className='routerContainer'>
+            <div className='navigationContainer'>
+                <nav> 
+                    <ul>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">Resume</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li>
+                            <Link to="/blog">Blog</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/portfolio" component={Home} />
+                <Route exact path="/blog" component={About} />
             </Switch>
 
         </div>
