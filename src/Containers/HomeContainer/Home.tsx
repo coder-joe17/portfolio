@@ -1,10 +1,14 @@
 import * as React from "react";
 import {hot} from "react-hot-loader";
-
+import './Home.scss'
 
 class Home extends React.Component{
     render() {
-        return <h1>Hello World From Home!</h1>;
+        return (
+            <div className='homeContainer'>
+                <h1></h1>
+            </div>
+        )
     }
 }
 

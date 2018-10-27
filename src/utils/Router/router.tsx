@@ -16,7 +16,13 @@ const AppRouter = () => (
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
+                            <Link to="/about">Resume</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li>
+                            <Link to="/blog">Blog</Link>
                         </li>
                     </ul>
                 </nav>
@@ -24,7 +30,9 @@ const AppRouter = () => (
 
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/portfolio" component={Home} />
+                <Route exact path="/blog" component={About} />
             </Switch>
 
         </div>
