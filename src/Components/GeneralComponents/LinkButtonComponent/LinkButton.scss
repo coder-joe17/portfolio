@@ -1,0 +1,29 @@
+@import '../../../stylesheets/partials/color';
+
+.linkButtonContainer {
+    margin: 4px 4px;
+    
+}
+
+.linkButtonTextContainer {
+    border: 1px solid $accent-dim-color;
+    padding: 5px;
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    background-color: $base-color;
+    font-size: 18px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.linkButtonContainer a {
+    color: black;
+}
+
+.linkButtonContainer a:visited {
+    color: black;
+}
