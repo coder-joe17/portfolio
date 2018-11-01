@@ -1,0 +1,14 @@
+@import '../../../stylesheets/partials/color';
+
+.sidebarPersonalContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resumeImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}

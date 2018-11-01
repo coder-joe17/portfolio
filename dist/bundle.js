@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "abae9c0c91dae9809485";
+/******/ 	var hotCurrentHash = "31011aaa60b9eb486196";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -805,6 +805,17 @@ eval("module.exports = __webpack_require__.p + \"Images/mountains.jpeg\";\n\n//#
 
 /***/ }),
 
+/***/ "./Images/resumeImage.JPG":
+/*!********************************!*\
+  !*** ./Images/resumeImage.JPG ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"Images/resumeImage.JPG\";\n\n//# sourceURL=webpack:///./Images/resumeImage.JPG?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/GeneralComponents/LinkButtonComponent/LinkButton.scss":
 /*!*************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/Components/GeneralComponents/LinkButtonComponent/LinkButton.scss ***!
@@ -823,7 +834,40 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*Base Colors*/\\n.welcomeContainer {\\n  background: url(\" + escape(__webpack_require__(/*! ../../../../Images/mountains.jpeg */ \"./Images/mountains.jpeg\")) + \") no-repeat center center fixed;\\n  background-size: cover;\\n  height: 100%;\\n  display: flex;\\n  flex-direction: row;\\n  overflow-y: hidden;\\n  justify-content: center;\\n  align-items: center;\\n  color: white; }\\n\\n.centerContainer {\\n  background-color: #57BC90;\\n  width: 25%;\\n  height: 20%;\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n  border-radius: 10px;\\n  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);\\n  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);\\n  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75); }\\n\\n.subTitleContainer {\\n  color: black;\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: center;\\n  align-items: center;\\n  align-content: center; }\\n\\n.subheadingText {\\n  text-align: center; }\\n\\n.buttonContainer {\\n  display: flex;\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n  margin-top: 15px;\\n  justify-content: center; }\\n\\n.nameContainer {\\n  margin: 4% 0;\\n  text-align: center; }\\n\\n@media only screen and (max-width: 1400px) {\\n  .centerContainer {\\n    width: 30%; } }\\n\\n@media only screen and (max-width: 1150px) {\\n  .centerContainer {\\n    width: 35%; } }\\n\\n@media only screen and (max-width: 1000px) {\\n  .centerContainer {\\n    width: 40%; } }\\n\\n@media only screen and (max-width: 850px) {\\n  .centerContainer {\\n    width: 50%; } }\\n\\n@media only screen and (max-width: 700px) {\\n  .centerContainer {\\n    width: 60%; } }\\n\\n@media only screen and (max-width: 550px) {\\n  .centerContainer {\\n    width: 75%; } }\\n\\n@media only screen and (max-width: 450px) {\\n  .centerContainer {\\n    width: 85%;\\n    height: 30%; } }\\n\\n@media only screen and (max-height: 850px) {\\n  .centerContainer {\\n    height: 30%; } }\\n\\n@media only screen and (max-height: 750px) {\\n  .centerContainer {\\n    height: 35%; } }\\n\\n@media only screen and (max-height: 450px) {\\n  .centerContainer {\\n    height: 50%; } }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Components/HomeComponents/WelcomeComponent/Welcome.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*Base Colors*/\\n.welcomeContainer {\\n  background: url(\" + escape(__webpack_require__(/*! ../../../../Images/mountains.jpeg */ \"./Images/mountains.jpeg\")) + \") no-repeat center center fixed;\\n  background-size: cover;\\n  height: 100%;\\n  display: flex;\\n  flex-direction: row;\\n  overflow-y: hidden;\\n  justify-content: center;\\n  align-items: center;\\n  color: white; }\\n\\n.centerContainer {\\n  background-color: #57BC90;\\n  width: 25%;\\n  height: 20%;\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n  border-radius: 10px;\\n  -webkit-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.75);\\n  -moz-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.75);\\n  box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.75); }\\n\\n.subTitleContainer {\\n  color: black;\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: center;\\n  align-items: center;\\n  align-content: center; }\\n\\n.subheadingText {\\n  text-align: center; }\\n\\n.buttonContainer {\\n  display: flex;\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n  margin-top: 15px;\\n  justify-content: center; }\\n\\n.nameContainer {\\n  margin: 4% 0;\\n  text-align: center; }\\n\\n@media only screen and (max-width: 1400px) {\\n  .centerContainer {\\n    width: 30%; } }\\n\\n@media only screen and (max-width: 1150px) {\\n  .centerContainer {\\n    width: 35%; } }\\n\\n@media only screen and (max-width: 1000px) {\\n  .centerContainer {\\n    width: 40%; } }\\n\\n@media only screen and (max-width: 850px) {\\n  .centerContainer {\\n    width: 50%; } }\\n\\n@media only screen and (max-width: 700px) {\\n  .centerContainer {\\n    width: 60%; } }\\n\\n@media only screen and (max-width: 550px) {\\n  .centerContainer {\\n    width: 75%; } }\\n\\n@media only screen and (max-width: 450px) {\\n  .centerContainer {\\n    width: 85%;\\n    height: 30%; } }\\n\\n@media only screen and (max-height: 850px) {\\n  .centerContainer {\\n    height: 30%; } }\\n\\n@media only screen and (max-height: 750px) {\\n  .centerContainer {\\n    height: 35%; } }\\n\\n@media only screen and (max-height: 450px) {\\n  .centerContainer {\\n    height: 50%; } }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Components/HomeComponents/WelcomeComponent/Welcome.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*Base Colors*/\\n.resumeDetailsContainer {\\n  background-color: white;\\n  height: 90vh;\\n  flex: 70%;\\n  margin: 0 2vw;\\n  -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.65);\\n  -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.65);\\n  box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.65);\\n  border-radius: 10px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*Base Colors*/\\n.resumeSidebarContainer {\\n  height: 90vh;\\n  height: 90vh;\\n  background-color: white;\\n  flex: 20%;\\n  margin: 0 2vw;\\n  -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.65);\\n  -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.65);\\n  box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.65);\\n  border-radius: 10px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss ***!
+  \**********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*Base Colors*/\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -856,7 +900,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Containers/ResumeContainer/Resume.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*Base Colors*/\\n.resumeContainer {\\n  display: flex;\\n  flex-direction: row;\\n  width: 100vw;\\n  height: 100vh;\\n  justify-content: center;\\n  align-items: center;\\n  background-color: #e6ecf0; }\\n\\n.innerResumeContainer {\\n  height: 100vh;\\n  width: 75%;\\n  display: flex;\\n  flex-direction: row;\\n  align-items: center; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Containers/ResumeContainer/Resume.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -1731,6 +1775,75 @@ eval("\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var 
 
 /***/ }),
 
+/***/ "./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss":
+/*!***********************************************************************************!*\
+  !*** ./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./ResumeDetails.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(true) {\n\tmodule.hot.accept(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./ResumeDetails.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss\", function() {\n\t\tvar newContent = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./ResumeDetails.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss\");\n\n\t\tif(typeof newContent === 'string') newContent = [[module.i, newContent, '']];\n\n\t\tvar locals = (function(a, b) {\n\t\t\tvar key, idx = 0;\n\n\t\t\tfor(key in a) {\n\t\t\t\tif(!b || a[key] !== b[key]) return false;\n\t\t\t\tidx++;\n\t\t\t}\n\n\t\t\tfor(key in b) idx--;\n\n\t\t\treturn idx === 0;\n\t\t}(content.locals, newContent.locals));\n\n\t\tif(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');\n\n\t\tupdate(newContent);\n\t});\n\n\tmodule.hot.dispose(function() { update(); });\n}\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss?");
+
+/***/ }),
+
+/***/ "./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.tsx":
+/*!**********************************************************************************!*\
+  !*** ./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.tsx ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\n__webpack_require__(/*! ./ResumeDetails.scss */ \"./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.scss\");\r\n// 'HelloProps' describes the shape of props.\r\n// State is never set so we use the '{}' type.\r\nvar ResumeDetails = /** @class */ (function (_super) {\r\n    __extends(ResumeDetails, _super);\r\n    function ResumeDetails() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    ResumeDetails.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: 'resumeDetailsContainer' }, \"Hello from Details\"));\r\n    };\r\n    return ResumeDetails;\r\n}(React.Component));\r\nexports.ResumeDetails = ResumeDetails;\r\n\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.tsx?");
+
+/***/ }),
+
+/***/ "./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss":
+/*!***********************************************************************************!*\
+  !*** ./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./ResumeSidebar.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(true) {\n\tmodule.hot.accept(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./ResumeSidebar.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss\", function() {\n\t\tvar newContent = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./ResumeSidebar.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss\");\n\n\t\tif(typeof newContent === 'string') newContent = [[module.i, newContent, '']];\n\n\t\tvar locals = (function(a, b) {\n\t\t\tvar key, idx = 0;\n\n\t\t\tfor(key in a) {\n\t\t\t\tif(!b || a[key] !== b[key]) return false;\n\t\t\t\tidx++;\n\t\t\t}\n\n\t\t\tfor(key in b) idx--;\n\n\t\t\treturn idx === 0;\n\t\t}(content.locals, newContent.locals));\n\n\t\tif(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');\n\n\t\tupdate(newContent);\n\t});\n\n\tmodule.hot.dispose(function() { update(); });\n}\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss?");
+
+/***/ }),
+
+/***/ "./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.tsx":
+/*!**********************************************************************************!*\
+  !*** ./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.tsx ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\n__webpack_require__(/*! ./ResumeSidebar.scss */ \"./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.scss\");\r\nvar SidebarPersonal_1 = __webpack_require__(/*! ../SidebarPersonalComponent/SidebarPersonal */ \"./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.tsx\");\r\n// 'HelloProps' describes the shape of props.\r\n// State is never set so we use the '{}' type.\r\nvar ResumeSidebar = /** @class */ (function (_super) {\r\n    __extends(ResumeSidebar, _super);\r\n    function ResumeSidebar() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    ResumeSidebar.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: 'resumeSidebarContainer' },\r\n            React.createElement(SidebarPersonal_1.SidebarPersonal, null)));\r\n    };\r\n    return ResumeSidebar;\r\n}(React.Component));\r\nexports.ResumeSidebar = ResumeSidebar;\r\n\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.tsx?");
+
+/***/ }),
+
+/***/ "./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss":
+/*!***************************************************************************************!*\
+  !*** ./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./SidebarPersonal.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(true) {\n\tmodule.hot.accept(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./SidebarPersonal.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss\", function() {\n\t\tvar newContent = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/sass-loader/lib/loader.js!./SidebarPersonal.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss\");\n\n\t\tif(typeof newContent === 'string') newContent = [[module.i, newContent, '']];\n\n\t\tvar locals = (function(a, b) {\n\t\t\tvar key, idx = 0;\n\n\t\t\tfor(key in a) {\n\t\t\t\tif(!b || a[key] !== b[key]) return false;\n\t\t\t\tidx++;\n\t\t\t}\n\n\t\t\tfor(key in b) idx--;\n\n\t\t\treturn idx === 0;\n\t\t}(content.locals, newContent.locals));\n\n\t\tif(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');\n\n\t\tupdate(newContent);\n\t});\n\n\tmodule.hot.dispose(function() { update(); });\n}\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss?");
+
+/***/ }),
+
+/***/ "./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.tsx":
+/*!**************************************************************************************!*\
+  !*** ./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.tsx ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\n__webpack_require__(/*! ./SidebarPersonal.scss */ \"./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.scss\");\r\n// @ts-ignore\r\nvar resumeImage_JPG_1 = __webpack_require__(/*! ../../../../Images/resumeImage.JPG */ \"./Images/resumeImage.JPG\");\r\n// 'HelloProps' describes the shape of props.\r\n// State is never set so we use the '{}' type.\r\nvar SidebarPersonal = /** @class */ (function (_super) {\r\n    __extends(SidebarPersonal, _super);\r\n    function SidebarPersonal() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    SidebarPersonal.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: 'sidebarPersonalContainer' },\r\n            React.createElement(\"img\", { src: resumeImage_JPG_1.default }),\r\n            \"Hello from sidebar person\"));\r\n    };\r\n    return SidebarPersonal;\r\n}(React.Component));\r\nexports.SidebarPersonal = SidebarPersonal;\r\n\n\n//# sourceURL=webpack:///./src/Components/ResumeComponents/SidebarPersonalComponent/SidebarPersonal.tsx?");
+
+/***/ }),
+
 /***/ "./src/Containers/AboutContainer/About.scss":
 /*!**************************************************!*\
   !*** ./src/Containers/AboutContainer/About.scss ***!
@@ -1796,7 +1909,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(module) {\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_hot_loader_1 = __webpack_require__(/*! react-hot-loader */ \"./node_modules/react-hot-loader/index.js\");\r\n__webpack_require__(/*! ./Resume.scss */ \"./src/Containers/ResumeContainer/Resume.scss\");\r\n// import { Welcome } from '../../Components/ResumeComponents/WelcomeComponent/Welcome'\r\nvar Resume = /** @class */ (function (_super) {\r\n    __extends(Resume, _super);\r\n    function Resume() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    Resume.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: 'ResumeContainer' }));\r\n    };\r\n    return Resume;\r\n}(React.Component));\r\nexports.default = react_hot_loader_1.hot(module)(Resume);\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ \"./node_modules/webpack/buildin/module.js\")(module)))\n\n//# sourceURL=webpack:///./src/Containers/ResumeContainer/Resume.tsx?");
+eval("/* WEBPACK VAR INJECTION */(function(module) {\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    }\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar react_hot_loader_1 = __webpack_require__(/*! react-hot-loader */ \"./node_modules/react-hot-loader/index.js\");\r\n__webpack_require__(/*! ./Resume.scss */ \"./src/Containers/ResumeContainer/Resume.scss\");\r\nvar ResumeSidebar_1 = __webpack_require__(/*! ../../Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar */ \"./src/Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar.tsx\");\r\nvar ResumeDetails_1 = __webpack_require__(/*! ../../Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails */ \"./src/Components/ResumeComponents/ResumeDetailsComponent/ResumeDetails.tsx\");\r\nvar Resume = /** @class */ (function (_super) {\r\n    __extends(Resume, _super);\r\n    function Resume() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    Resume.prototype.render = function () {\r\n        return (React.createElement(\"div\", { className: 'resumeContainer' },\r\n            React.createElement(\"div\", { className: 'innerResumeContainer' },\r\n                React.createElement(ResumeSidebar_1.ResumeSidebar, null),\r\n                React.createElement(ResumeDetails_1.ResumeDetails, null))));\r\n    };\r\n    return Resume;\r\n}(React.Component));\r\nexports.default = react_hot_loader_1.hot(module)(Resume);\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ \"./node_modules/webpack/buildin/module.js\")(module)))\n\n//# sourceURL=webpack:///./src/Containers/ResumeContainer/Resume.tsx?");
 
 /***/ }),
 
