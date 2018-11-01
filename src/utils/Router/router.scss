@@ -31,3 +31,9 @@
 }
 
 
+@media only screen and (max-device-width: 550px){
+    .navigationContainer li {
+        font-size: $medium-font-size;
+    }
+}
+

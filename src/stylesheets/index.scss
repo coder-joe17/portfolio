@@ -5,12 +5,14 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Questrial', sans-serif;
-
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    overflow-y: hidden;
+    overflow-x: auto;
+
 }
 
 #root {
@@ -27,5 +29,7 @@ a:visited {
     color: $accent-bright-color;
 }
 
-
-
+html, body {
+    margin: 0px;
+    padding: 0px;
+}

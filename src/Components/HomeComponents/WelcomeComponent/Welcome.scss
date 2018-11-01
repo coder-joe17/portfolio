@@ -1,0 +1,125 @@
+@import '../../../stylesheets/partials/color';
+
+$bg-img: url('../../../../Images/mountains.jpeg');
+
+.welcomeContainer {
+    background: $bg-img no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    color: $base-color;
+}
+
+.centerContainer {
+    background-color: $accent-bright-color;
+    width: 25%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.subTitleContainer {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.subheadingText {
+    text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.nameContainer {
+    margin: 4% 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px){
+    .centerContainer {
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 1150px){
+    .centerContainer {
+        width: 35%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .centerContainer {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 850px){
+    .centerContainer {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .centerContainer {
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 550px){
+    .centerContainer {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .centerContainer {
+        width: 85%;
+        height: 30%;
+    }
+}
+
+
+@media only screen and (max-height: 850px){
+    .centerContainer {
+        height: 30%;
+    }
+}
+
+@media only screen and (max-height: 750px){
+    .centerContainer {
+        height: 35%;
+    }
+}
+
+@media only screen and (max-height: 450px){
+    .centerContainer {
+        height: 50%;
+    }
+}
+
+
+
