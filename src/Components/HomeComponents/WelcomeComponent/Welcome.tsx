@@ -19,7 +19,7 @@ export class Welcome extends React.Component {
                     <div className='buttonContainer'>
                         <LinkButton linkText='Contact' linkTo='/contact'></LinkButton>
                         <LinkButton linkText='Resume' linkTo='/resume'></LinkButton>
-                        <LinkButton linkText='About' linkTo='/About'></LinkButton>
+                        <LinkButton linkText='About' linkTo='/about'></LinkButton>
                     </div>
                 </div>
             </div>
