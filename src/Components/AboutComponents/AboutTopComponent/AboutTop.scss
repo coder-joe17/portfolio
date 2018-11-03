@@ -1,0 +1,172 @@
+@import '../../../stylesheets/partials/color';
+$bg-img: url('../../../../Images/aboutTopMoon.jpeg');
+
+.aboutTopContainer {
+    height: 100vh;
+    width: 75vw;
+    background-color: $accent-tin-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.aboutTopPicture {
+    flex: 30%;
+    background-color: black;
+    height: 100%;
+}
+
+.aboutTopIntro {
+    flex: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7vh;
+    padding-left: 5%;
+    background-image: $bg-img;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: auto;
+
+}
+
+.aboutTopTextContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.aboutTopImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutTopIntro h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.aboutTopIntro p {
+    
+    color: white;
+    margin: 5% 0;
+    line-height: 1.7em;
+    font-size: 1.2em;
+}
+
+
+
+@media only screen and (max-width: 1400px){
+
+    .aboutTopImg {
+        width: 150%;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 1200px){
+    .aboutTopImg {
+        width: 175%;
+    }
+
+    .aboutTopTextContainer {
+        justify-content: flex-start;
+    }
+
+    .aboutTopTextContainer {
+        width: 90%;
+    }
+
+    .aboutTopIntro h1 {
+        font-size: 2.5em;
+
+    }
+    
+    .aboutTopIntro p {
+        
+        margin: 5% 0;
+        line-height: 1.7em;
+        font-size: 1.1em;
+    }
+   
+}
+
+
+@media only screen and (max-width: 1000px){
+    .aboutTopContainer {
+
+        width: 100vw;
+    }
+
+    .aboutTopPicture {
+        display: none;
+    }
+
+    .aboutTopTextContainer {
+        width: 75%;
+    }
+   
+}
+
+
+@media only screen and (max-width: 750px){
+
+    .aboutTopTextContainer {
+        width: 95%;
+    }
+
+    .aboutTopIntro h1 {
+        font-size: 2em;
+
+    }
+    
+    .aboutTopIntro p {
+        
+        margin: 5% 0;
+        line-height: 1.7em;
+        font-size: 1em;
+    }
+}
+
+// @media only screen and (max-height: 450px) and (max-width: 750px){
+
+//     .aboutTopTextContainer {
+//         width: 60%;
+//     }
+// }
+
+
+@media only screen and (max-height: 750px){
+
+    .aboutTopTextContainer {
+        width: 75%;
+    }
+}
+
+
+
+@media only screen and (max-height: 450px){
+    .aboutTopIntro {
+        padding-top: 15vh;
+
+     }
+
+     .aboutTopTextContainer {
+        width: 60%;
+    }
+}
+
+
+
+
+

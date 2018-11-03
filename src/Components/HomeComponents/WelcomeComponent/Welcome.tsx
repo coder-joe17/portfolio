@@ -3,10 +3,8 @@ import './Welcome.scss'
 import { LinkButton } from '../../GeneralComponents/LinkButtonComponent/LinkButton'
 
 
-// 'HelloProps' describes the shape of props.
-// State is never set so we use the '{}' type.
 export class Welcome extends React.Component {
-    render() {
+    render() { 
         return (
             <div className='welcomeContainer'>
                 <div className='centerContainer'>
@@ -18,8 +16,8 @@ export class Welcome extends React.Component {
                     </div>
                     <div className='buttonContainer'>
                         <LinkButton linkText='Contact' linkTo='/contact'></LinkButton>
-                        <LinkButton linkText='Resume' linkTo='/resume'></LinkButton>
-                        <LinkButton linkText='About' linkTo='/About'></LinkButton>
+                        <LinkButton linkText='Resume' linkTo='/resume/education'></LinkButton>
+                        <LinkButton linkText='About' linkTo='/about'></LinkButton>
                     </div>
                 </div>
             </div>

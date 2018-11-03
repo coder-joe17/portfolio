@@ -17,7 +17,8 @@ module.exports = {
         contentBase: path.join(__dirname, "dist/"),
         port: 3000,
         publicPath: "http://localhost:3000/dist/",
-        hotOnly: true
+        hotOnly: true,
+        historyApiFallback: true,
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
@@ -41,7 +42,7 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|svg|jpg|gif|jpeg)$/,
+                test: /\.(png|svg|jpg|gif|jpeg|JPG)$/,
                 loader: 'file-loader',
                 options: {
                     name: '[path][name].[ext]',

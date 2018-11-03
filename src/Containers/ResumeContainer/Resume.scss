@@ -1,0 +1,35 @@
+@import '../../stylesheets/partials/color';
+
+.resumeContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vh;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: $standard-background;
+}
+
+.innerResumeContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px){
+
+    .resumeContainer {
+        padding-top: 10vh;
+    }
+
+    .innerResumeContainer {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+
+    }
+}

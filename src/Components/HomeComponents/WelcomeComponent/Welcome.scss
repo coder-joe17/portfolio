@@ -12,6 +12,7 @@ $bg-img: url('../../../../Images/mountains.jpeg');
     justify-content: center;
     align-items: center;
     color: $base-color;
+    margin-top: 3vh;
 }
 
 .centerContainer {
@@ -23,9 +24,9 @@ $bg-img: url('../../../../Images/mountains.jpeg');
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.75);
 }
 
 .subTitleContainer {
