@@ -1,0 +1,17 @@
+.sidebarOptionContainer {
+    font-size: 2em;
+    margin: 10%;
+
+}
+
+@media only screen and (max-width: 1050px){
+    .sidebarOptionContainer {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .sidebarOptionContainer {
+        margin: 1vh 0;
+    }
+}

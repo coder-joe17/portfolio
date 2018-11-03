@@ -5,6 +5,12 @@
 .navigationContainer {
     background: $nav-background;
     height: $nav-height;
+    -webkit-box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+    position: absolute;
+    width: 100%;
+    
 }
 
 .navigationContainer nav {
@@ -31,7 +37,7 @@
 }
 
 
-@media only screen and (max-device-width: 550px){
+@media only screen and (max-width: 550px){
     .navigationContainer li {
         font-size: $medium-font-size;
     }

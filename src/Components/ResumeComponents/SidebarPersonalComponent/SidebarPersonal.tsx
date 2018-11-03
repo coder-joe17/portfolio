@@ -1,8 +1,7 @@
 import * as React from "react";
 import './SidebarPersonal.scss'
 
-// @ts-ignore
-const resumeImage = require('../../../../Images/resumeImage.JPG')
+const resumeImage = require('../../../../Images/croppedResumeImageRegular.JPG')
 
 
 
@@ -13,9 +12,14 @@ export class SidebarPersonal extends React.Component {
     render() {
         return (
             <div className='sidebarPersonalContainer'>
-                <img src={resumeImage} alt='Joseph Bingham Picture' className='resumeImage'/>
-               
+                <div className='resumeImageContainer'>
+                    <img src={resumeImage} alt='Joseph Bingham Picture' className='resumeImage'/>
+                </div>
+                <div className ='resumePersonalInfo'>
+                    <p>Joseph Bingham</p>
+                    <p>Joseph.Bingham@asu.edu</p>
+                </div>
             </div>
         )
     }
-}
+} 

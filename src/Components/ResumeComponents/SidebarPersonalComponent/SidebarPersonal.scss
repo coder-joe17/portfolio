@@ -2,13 +2,79 @@
 
 .sidebarPersonalContainer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 5%;
+    background-color: $accent-dim-color;
+}
+
+.resumeImage {
+    height: 158px;
+    width: 158px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.resumeImageContainer {
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.resumeImage {
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-    object-fit: cover;
+.resumePersonalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 0px;
+    background-color: #77C9D4;
+}
+
+.resumePersonalInfo p {
+    margin: 5px 0px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1050px){
+    .resumeImage {
+        height: 80px;
+        width: 80px;
+    }
+
+    .resumePersonalInfo p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    .sidebarPersonalContainer {
+        border-top-left-radius: 0px;
+    }
+
+    .resumeImage {
+        margin: 1vh 1vw;
+    }
+
+    .sidebarPersonalContainer {
+        padding-top: 0;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .resumePersonalInfo {
+        margin-top: 0;
+        margin-top: 0;
+        flex: 1;
+        padding-left: 5vw;
+        align-items: flex-start;
+    }
+
+    .resumePersonalInfo p {
+        font-size: 1em;
+    }
 }

@@ -17,7 +17,7 @@ const AppRouter = () => (
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/resume">Resume</Link>
+                            <Link to="/resume/education">Resume</Link>
                         </li>
                         <li>
                             <Link to="/about">About</Link>
@@ -37,7 +37,7 @@ const AppRouter = () => (
 
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/resume" component={Resume} />
+                <Route path="/resume" component={Resume} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/portfolio" component={Home} />
                 <Route exact path="/contact" component={About} />
