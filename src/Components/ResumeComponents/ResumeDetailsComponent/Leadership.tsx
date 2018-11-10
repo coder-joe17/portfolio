@@ -2,14 +2,14 @@ import * as React from "react";
 import './Details.scss'
 
 
-export class Experience extends React.Component {
+export class Leadership extends React.Component {
     render() {
         return (
             <div className='resumeDetailsContainer'>
 
                 <div className='resumeHeading'>
-                    <h1 className='resumeHeadingTitle'>Experience</h1>
-                    <h2 className='resumeHeadingSubTitle'>Internships, Work, Side Projects</h2>
+                    <h1 className='resumeHeadingTitle'>Extracurriculars</h1>
+                    <h2 className='resumeHeadingSubTitle'>Leadership, Clubs, Organizations</h2>
                 </div>
 
                 <div className='resumeBody'>
@@ -17,20 +17,18 @@ export class Experience extends React.Component {
                     <div className='resumeBodyRow resumeDetailsCollege'>
                         <div className='resumeBodyRowTitle'>
                             <div className='resumeBodyRowTitleText'>
-                               Full Stack Developer / Business Analyst
+                            Member
                             </div>
                             <div className='resumeBodyRowTitleDate'>
-                                07/2017 - Present
+                                11/2015 - Current
                             </div>
                             
                         </div>
                         <div className='resumeBodyRowSubTitle'>
-                            Office of University Initiatives (ASU)
+                            Next Generation Service Corps (NGSC)
                         </div>
                         <div className='resumeBodyRowDetails'>
-                            Inherited a custom built web survey system in its MVP stage and grew it into a well-functioning system. Being the only developer on the project, I utilized PHP, JavaScript (jQuery), and MySQL to build out the system and add both data validation and custom UI components. I am also responsible for managing the MySQL database. This involves data cleansing / manipulation, querying, and optimization. At times I work with Tableau to create basic custom visualizations for the dataset. <br/><br/>
-                            In addition, I am in the process of building an interface to navigate the newly obtained survey data in more advanced ways. It is still a work in progress, but the live testing page can be found <a href='https://community.asu.edu/test/dashboard-test' target='_blank'>here</a>. Building this interface involves writing complex JavaScript (ES6+) using functional design patterns. To help manage the state, I am using the fundamental design methodology that Redux uses (a central state store that is the constant reference for the UI). I utilize Jest for unit testing and Katalon for testing browser functionality. <br/><br/>
-                            Because I am the sole developer on the project, I have learned the skill of managing upward. I am trusted to make basic decisions about the development process, give time projections, and communicate progress. In order to explain decisions to my manager, I have learned how to communicate technical concepts to someone who does not have an engineering background. Part of this is also explaining technical tradeoffs or the value of a technical decision, all without getting into details that cause more confusion than understanding.
+                           
                         </div>
                     </div>
 

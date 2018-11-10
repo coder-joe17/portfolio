@@ -11,8 +11,6 @@ export class ResumeSidebar extends React.Component {
                 <div className='resumeSidebarOptions'>
                     <SidebarOption linkTo = 'education' displayText = 'Education' />
                     <SidebarOption linkTo = 'experience' displayText = 'Experience' />
-                    <SidebarOption linkTo = 'leadership' displayText = 'Leadership' />
-                    <SidebarOption linkTo = 'portfolio' displayText = 'Portfolio' />
                 </div>
             </div>
         )

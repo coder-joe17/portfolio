@@ -1,8 +1,7 @@
 import * as React from "react";
 import './SidebarPersonal.scss'
 
-const resumeImage = require('../../../../Images/croppedResumeImageRegular.JPG')
-
+const resumeImage = require('../../../Images/croppedResumeImageRegular.JPG')
 
 
 
@@ -17,7 +16,8 @@ export class SidebarPersonal extends React.Component {
                 </div>
                 <div className ='resumePersonalInfo'>
                     <p>Joseph Bingham</p>
-                    <p>Joseph.Bingham@asu.edu</p>
+                    <p>Joe@Coder-Joe.com</p>
+                    <p><a href='https://www.linkedin.com/in/joseph-bingham-771a9186/' target='_blank' className='secondaryLink'>LinkedIn</a></p>
                 </div>
             </div>
         )
