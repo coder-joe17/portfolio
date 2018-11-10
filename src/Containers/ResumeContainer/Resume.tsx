@@ -5,6 +5,7 @@ import './Resume.scss'
 import { ResumeSidebar } from '../../Components/ResumeComponents/ResumeSidebarComponent/ResumeSidebar'
 import { Education } from '../../Components/ResumeComponents/ResumeDetailsComponent/Education'
 import { Experience } from '../../Components/ResumeComponents/ResumeDetailsComponent/Experience'
+import { Leadership } from '../../Components/ResumeComponents/ResumeDetailsComponent/Leadership'
 
 class Resume extends React.Component{
     render() {
@@ -14,6 +15,7 @@ class Resume extends React.Component{
                     <ResumeSidebar />
                     <Route path={`/resume/education`} component={Education}/>
                     <Route path={`/resume/experience`} component={Experience}/>
+                    <Route path={`/resume/extracurriculars`} component={Leadership}/>
                 </div>
 
 

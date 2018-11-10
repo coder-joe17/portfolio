@@ -39,3 +39,11 @@ html, body {
 p {
     font-family: 'Lato', sans-serif;
 }
+
+.secondaryLink {
+    color: $link-secondary;
+}
+
+.secondaryLink:visited {
+    color: $link-secondary-visited;
+}
